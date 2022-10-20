@@ -1,0 +1,310 @@
+.header {
+    background-image: url('img/header-bg.png');
+    width: 100%;
+    height: 1000px;
+}
+
+.m-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-left a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.header-right{
+    padding: 50px 10px;
+}
+
+.header-right a{
+    padding-left: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    color: red;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    color: whitesmoke;
+}
+
+.header-content h2 {
+    font-size: 40px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+}
+
+.line {
+    width: 140px;
+    height: 4px;
+    background-color: red;
+    margin: 2px auto;
+}
+
+.body h3 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 0;
+}
+
+.tours {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tours img {
+    width: 550px;
+    height: 300px;
+}
+
+.tours img:hover {
+    width: 560px;
+    height: 310px;
+    transition: 0.5s;
+}
+
+.tour-1 p {
+    font-size: 15px;
+    text-align: left;
+}
+
+.tour-2 p {
+    font-size: 14px;
+    text-align: right;
+}
+
+.onclick {
+    border:none;
+    outline: none;
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.onclick:hover {
+    background-color: cornflowerblue ;
+}
+
+.explore {
+    width: 100%;
+    height: 800px;
+    background-image: url(img/bg2.jpg);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.explore h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.explore p {
+    font-size: 30px;
+    margin-top: 200px;
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    margin-top: 5px;
+    width: 100%;
+    padding: 60px 3px;
+    display: flex;
+    background-color: #333;
+    color: #efefef;
+    justify-content: space-evenly;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2 {
+    
+    align-items: right;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #efefef;
+}
+
+form input{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;  
+    cursor: pointer; 
+}
+
+.msg{
+    height: 100px;
+}
+
+.col-1 a:hover{
+    color: red;
+}
+
+.socials a img {
+    width: 41px;
+    height: 51px;
+    padding: 0 20px;
+}
+
+.fb {
+    width: 35px;
+    height: 25px;
+}
+
+
+@media only screen and (max-width:420px) {
+
+    .header {
+        width: 100%;
+        height: 700px;
+    }
+
+    .header-right{
+        padding: 50px 1px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-right a{
+        padding-left: 35px;
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        color: whitesmoke;
+    }
+    
+    .header-content h2 {
+        font-size: 20px;
+    }
+    
+    .header-content h1 {
+        font-size: 25px;
+    }
+
+    .tours {
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+        text-align: center;
+        font-size: 15   px;
+    }
+
+    .tours img {
+        width: 350px;
+        height: 200px;
+    }
+    
+    .tours img:hover {
+        width: 350px;
+        height: 200px;
+        transition: 0.5s;
+    }
+
+    .onclick {
+        border:none;
+        outline: none;
+        width: 140px;
+        height: 50px;
+        background-color: red;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+
+    .footer{
+        background-color: #333;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px 3px;
+        margin-top: 20px;
+    }
+
+    form input{
+        width: 150px;
+        height: 25px;
+        outline: none;
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    
+
+    .footer div h3{
+        font-weight: 300;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    .msg{
+        height: 50px;
+    }
+
+    form button{
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 15px;  
+        cursor: pointer; 
+        width:75px;
+        height: 25px;
+    }
+
+
+}
